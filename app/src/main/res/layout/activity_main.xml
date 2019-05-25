@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:mstb="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_gravity="center"
+        android:textSize="@dimen/_15sdp"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <org.honorato.multistatetogglebutton.MultiStateToggleButton
+        android:id="@+id/mstb_multi_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10sdp"
+        mstb:mstbColorPressedBackground="@android:color/holo_blue_bright"
+        android:layout_marginTop="@dimen/_10sdp"
+        mstb:values="@array/language_array"
+        mstb:mstbPrimaryColor="@android:color/holo_blue_bright"
+        mstb:mstbSecondaryColor= "@android:color/white" />
+
+    <Button
+        android:id="@+id/english"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="change to english"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/bengali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="change to bengali"
+        android:textAllCaps="false" />
+
+</LinearLayout>
+
+</LinearLayout>

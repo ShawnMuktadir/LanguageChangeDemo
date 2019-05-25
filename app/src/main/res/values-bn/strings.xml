@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LanguageChangeDemo</string>
+    <string name="hello">হ্যালো</string>
+
+    <string-array name="language_array">
+        <item>বাংলা</item>
+        <item>ইংরেজি</item>
+    </string-array>
+</resources>

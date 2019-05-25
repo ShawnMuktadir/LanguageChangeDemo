@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LanguageChangeDemo</string>
+    <string name="hello">hello</string>
+
+    <string-array name="language_array">
+        <item>Bangla</item>
+        <item>English</item>
+    </string-array>
+</resources>
